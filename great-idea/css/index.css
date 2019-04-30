@@ -63,4 +63,136 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	width: 900px;
+	margin: auto;
+	text-align: center;
+}
+
+p {
+	margin: 20px 20px 0 0;
+}
+
+hr {
+	border: 1px solid black;
+}
+
+h3 {
+	font-family: 'Open-Sans', sans-serif;
+	font-weight: 600;
+}
+
+/* Nav Section */
+
+nav {
+	position: fixed;
+	top: 0;
+	padding: 10px 0;
+	text-align: left;
+	background-image: linear-gradient(to right, rgb(38, 38, 68) , rgb(90, 90, 161));
+	z-index: 1;
+	width: 900px;
+}
+
+nav a {
+	margin: 0 52px 0 0;
+	vertical-align: 50%;
+	text-decoration: none;
+	color: lightgrey;
+	transition: 1s;
+}
+
+nav a:hover {
+	font-size: 120%;
+}
+
+nav img {
+	margin-left: 54px;
+}
+
+
+/* Header Section */
+header {
+	margin-top: 30px;
+	background: url("/great-idea/img/header-img.png") no-repeat center center;
+	background-size: 55%;
+	z-index: -1;
+	padding: 150px;
+}
+
+.main-header {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	justify-content: center;
+	margin: auto;
+}
+
+header h1 {
+	font-size: 60px;
+	font-family: 'Open-Sans', sans-serif;
+	text-align: center;
+	color: rgb(2, 30, 56);
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.main-header button {
+	margin: auto;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(97, 97, 97);
+	color: rgb(27, 27, 27);
+	padding: 7px 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	width: 50%;
+	transition: 2s;
+}
+
+.main-header button:hover {
+	width: 80%;
+}
+
+/* Upper Content and Lower Content Sections */
+
+.content-section {
+	padding: 20px 0;
+	text-align: left;
+	margin: 0 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.upper-content {
+	width: 50%;
+	padding: 10px 0;
+}
+
+.upper-content p {
+	width: 100%;
+}
+
+
+.middle-img {
+	width: 100%;
+}
+
+.lower-content {
+	width: 35%;
+	padding: 10px 0;
+}
+
+
+/* Address Section */
+address {
+	margin: 30px 0;
+	text-align: left;
+}
+
+
+/* Footer Section */
+footer {
+	padding-bottom: 100px;
+}
