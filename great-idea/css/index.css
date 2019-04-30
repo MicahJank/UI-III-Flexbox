@@ -112,9 +112,11 @@ nav img {
 
 
 /* Header Section */
-header {
-	margin-top: 30px;
+
+	/* home page css */
+.home-header {
 	background: url("/great-idea/img/header-img.png") no-repeat center center;
+	margin-top: 30px;
 	background-size: 55%;
 	z-index: -1;
 	padding: 150px;
@@ -128,7 +130,7 @@ header {
 	margin: auto;
 }
 
-header h1 {
+.home-header h1 {
 	font-size: 60px;
 	font-family: 'Open-Sans', sans-serif;
 	text-align: center;
@@ -153,6 +155,25 @@ header h1 {
 
 .main-header button:hover {
 	width: 80%;
+}
+
+	/* services page css */
+.services-header {
+	margin-top: 60px;
+}
+
+.services-header img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.services-header h1 {
+	font-size: 26px;
+	text-align: left;
+}
+
+.services-header p {
+	margin-bottom: 50px;
 }
 
 /* Upper Content and Lower Content Sections */
