@@ -78,7 +78,7 @@ p {
 }
 
 hr {
-	border: 1px solid black;
+	border: 1px solid white;
 }
 
 h3 {
@@ -253,6 +253,13 @@ nav img {
 	cursor: pointer;
 	margin-top: 17px;
 	border-radius: 5px;
+	width: 144px;
+	transition: 1s;
+}
+
+.services-main-content div button:hover {
+	border-radius: 0%;
+	width: 50%;
 }
 
 
