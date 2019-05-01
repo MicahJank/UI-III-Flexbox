@@ -188,6 +188,13 @@ nav img {
 	margin-bottom: 50px;
 }
 
+	/* contact page header css */
+.contact-page-header img {
+	width: 900px;
+	height: 300px;
+	object-fit: cover;
+}
+
 /* Upper Content and Lower Content Sections */
 
 	/* home page content section */
@@ -254,6 +261,33 @@ nav img {
 address {
 	margin: 30px 0;
 	text-align: left;
+}
+
+/* Contact Page Content Section */
+.contact-page-content {
+	margin: 50px;
+}
+.contact-page-content h1 {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.contact-page-address {
+	text-align: center;
+	background-color: #3b3b3b;
+	color: white;
+	border-radius: 10px;
+	padding: 30px;
+	width: 70%;
+	margin: auto;
+}
+
+.contact-page-address h3 {
+	color: white;
+}
+
+.contact-page-address p {
+	margin-right: 0;
 }
 
 /* Service Page Facts Section */
