@@ -161,6 +161,7 @@ nav img {
 	font-size: 16px;
 	width: 50%;
 	transition: 2s;
+	cursor: pointer;
 }
 
 .main-header button:hover {
@@ -169,6 +170,7 @@ nav img {
 
 	/* services page header css */
 .services-header {
+	width: 100%;
 	margin-top: 60px;
 }
 
@@ -265,12 +267,12 @@ address {
 	margin-bottom: 20px;
 }
 
-.content-left ul {
+.facts-section-list ul {
 	list-style-type: square;
 	list-style-position: inside;
 }
 
-.content-left ul li {
+.facts-section-list ul li {
 	margin: 10px;
 }
 
@@ -303,4 +305,50 @@ address {
 /* Footer Section */
 footer {
 	padding-bottom: 100px;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 900px) {
+	body {
+		width: 100%;
+	}
+
+	/* service page header section */
+	.services-header h1, .services-header p {
+		text-align: center;
+		margin: 20px auto;
+	}
+
+
+	/* service page content section */
+	.services-main-content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.services-main-content div {
+		text-align: center;
+		width: 70%;
+	}
+
+	/* service page facts section */
+	.facts-section {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.facts-section h3, .facts-section p {
+		text-align: center;
+	}
+
+	.content-left {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
 }
